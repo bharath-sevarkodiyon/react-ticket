@@ -1,0 +1,96 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.title {
+    text-align: left;
+    font-size: 24px;
+    color: #333333;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.td {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+.inputField {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.submitButton {
+    width: auto;
+    display: inline-block;
+}
+
+.responseMessage {
+    margin-top: 25px;
+    color: #ff0000;
+    text-align: center;
+    font-size: 14px;
+}
+
+.divContainer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.newAccount {
+    width: 100%;
+    background-color: white;
+    font-size: 13px;
+    color: #8692A5;
+}
+
+.newAccount:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}

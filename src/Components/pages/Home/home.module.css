@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homeContainer{
+    /* height: 10px;
+    width: 50px;
+    margin-top: 0; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid; */
+    font-family: Arial, sans-serif;
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.outline{
+  display: flex;
+}
+.widget{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.split{
+  display: flex;
+  justify-content: space-between;
+}

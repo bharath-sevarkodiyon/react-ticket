@@ -1,0 +1,49 @@
+.tableContainer {
+    padding: 20px;
+    background-color: transparent;
+}
+
+.ticketTable {
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.ticketTable th,
+.ticketTable td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.ticketTable th {
+    background-color: #E2E2E2;
+    font-weight: bold;
+    color: #333;
+}
+.ticketTable th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.ticketTable th:last-child{
+    border-radius: 0 10px 0 0;
+}
+
+.inprogress {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.cancelled {
+    color: red;
+    font-weight: bold;
+}
+
+.closed {
+    color: #46AF65;
+    font-weight: bold;
+}
+.open {
+    color: #1E6BFD;
+    font-weight: bold;
+}

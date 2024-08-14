@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.backButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+}
+h4{
+    font-size: 22px;
+    text-align: center;
+}
+
+.tableContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticketTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticketTable th, .ticketTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.ticketTable th {
+    background-color: #f9fafb;
+    font-weight: bold;
+    color: #333;
+}
+
+.ticketTable td {
+    color: #555;
+}
+
+.editButton, .deleteButton {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.editButton {
+    font-family: "Poppins", sans-serif;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.deleteButton {
+    font-family: "Poppins", sans-serif;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.dialogOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogBox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dialogBox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.dialogBox label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dialogBox input {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.dialogBox p{
+    text-align: center;
+}
+
+.saveButton {
+    font-family: "Poppins", sans-serif;
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.cancelButton {
+    font-family: "Poppins", sans-serif;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.deleteConfirmButton {
+    font-family: "Poppins", sans-serif;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.dialogActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
